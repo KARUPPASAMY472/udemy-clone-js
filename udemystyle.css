@@ -1,0 +1,785 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.udemy-navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    color: black;
+    padding: 26px;
+}
+.udemy-navbar h3
+{
+    border-bottom: 2px solid whitesmoke;
+}
+.udemy-navbar h3:hover
+{
+    border-bottom: 2px solid blueviolet;
+    cursor: pointer;
+    color: blueviolet;
+   
+}
+.udemy-navbar-search
+{
+    display: flex;
+    border-radius: 50px;
+    width: 500px;
+    background-color: white;
+    align-items: center;
+}
+.udemy-navbar input
+{
+    margin-left: 6px;
+    border-radius: 50px;
+    padding: 15px;
+    width: 500px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+.udemy-navbar input:focus
+{
+    font-size: 16px;
+}
+.udemy-navbar-loga{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.udemy-navbar-loga:hover
+{
+    background-color: rgb(131, 131, 247);
+    color: blue;
+    transition-duration: 2s;
+}
+.udemy-navbar-log
+{
+    background-color:white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color:rgba(4, 4, 83, 0.74);
+    text-decoration: none;
+}
+.udemy-navbar-sign
+{
+    background-color:rgba(44, 44, 245, 0.74);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.udemy-navbar-log:hover
+{
+    background-color:rgba(44, 44, 245, 0.74);
+    color: white;
+}
+.udemy-navbar-sign:hover
+{
+    background-color:white;
+    color:blue
+}
+
+#udemy-navbar-awesome a
+{
+    text-decoration: none;
+    color: white;
+     background-color:rgba(44, 44, 245, 0.74);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#udemy-navbar-awesome a:hover
+{
+    background-color: white;
+    color: blue;
+}
+.udemy-front-image
+{
+    position: relative;
+    background-color: antiquewhite;
+}
+.udemy-front-para-image
+{
+    position: relative;
+}
+.udemy-front-image img{
+    
+    margin: 0px 50px;
+}
+.udemy-front-para
+{
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: fit-content;
+    padding: 20px 18px;
+    border-radius: 6px;
+}
+.udemy-front-para h2
+{
+    padding: 10px 0px 0px 0px;
+    font-size: 30px;
+
+}
+.udemy-front-para p
+{
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: rgb(92, 92, 225);
+}
+.udemy-front-para a
+{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(65, 65, 243);
+    border-radius: 6px;
+    margin-top: 20px;
+
+}
+.udemy-front-para a:hover
+{
+    color:rgb(3, 3, 97);
+    background-color: rgb(113, 113, 174);
+}
+.udemy_course
+{
+    margin: 10px;
+    padding: 10px;
+}
+.udemy_course_details
+{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.udemy_course_details_1
+{
+    background-color: white;
+    width: 380px;
+    padding: 10px;
+    height: fit-content;
+    border: 0.8px solid rgba(171, 167, 167, 0.175);
+    border-radius: 6px;
+}
+.udemy_course_details_1:hover
+{
+    background-color: rgba(236, 232, 232, 0.837);
+    cursor: pointer;
+}
+.udemy_course_details_1 img
+{
+    
+    text-align: center;
+    width: 360px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+
+#udemy_course_h
+{
+    background-color: rgb(231, 244, 231);
+    color: green;
+}
+#udemy_course_h:hover
+{
+    background-color: green;
+    color: white;
+}
+.udemy_course_details_rating
+{
+    display: flex;
+    padding: 10px;
+    margin: 10px 0px;
+    gap: 20px;
+}
+.udemy_course_details_rating p
+{
+    background-color: white;
+    color: black;
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 1px;
+    border: 1px solid rgba(182, 181, 181, 0.712);
+    border-radius: 3px;
+
+}
+.udemy_course_details_button
+{
+    margin: 50px 10px;
+}
+.udemy_course_details_button h2
+{
+    background-color:  white;
+    color:rgb(49, 49, 240);
+    padding: 13px;
+    border: 1px solid rgb(49, 49, 240);
+    border-radius: 3px;
+    width: 230px;
+    align-items: center;
+    font-size: 18px;
+}
+.udemy_course_details_button h2:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(146, 146, 148, 0.578);
+}
+
+.udemy_course_collection-o
+{
+    padding: 1px;
+    
+    margin: 0px 30px;
+
+}
+.udemy_course_collection-o p
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(47, 46, 46, 0.242);
+}
+.udemy_course_collection-o p a
+{
+    text-decoration: none;
+    color: rgb(4, 4, 56);
+    padding: 10px;
+
+    
+}
+.udemy_course_collection-o a:hover
+{
+    border-bottom: 2px solid black;
+}
+
+.udemy_course_collection-2
+{
+    
+    background-color: rgba(210, 210, 210, 0.552);
+    padding: 20px;
+    margin: 0px 0px;
+
+}
+.udemy_course_collection-2 p
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.udemy_course_collection-2 p a
+{
+    text-decoration: none;
+    background-color:rgba(0, 0, 0, 0.67) ;
+    color: white;
+    padding: 17px;
+    border-radius: 30px;
+}
+.udemy_course_collection-2 a:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.udemy_course_details_button-2
+{
+    margin: 40px 30px;
+
+}
+.udemy_course_details_button-2 h2
+{
+    background-color:  white;
+    color:rgb(49, 49, 240);
+    padding: 10px 10px;
+    border: 1px solid rgb(49, 49, 240);
+    border-radius: 3px;
+    width: 280px;
+    align-items: center;
+    font-size: 18px;
+}
+.udemy_course_details_button-2 h2:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(146, 146, 148, 0.578);
+}
+.udemy-company
+{
+    margin: 20px;
+}
+.udemy-company-logo
+{
+    background-color: white;
+    color: rgba(58, 57, 57, 0.912);
+    width:100%;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0px;
+}
+.udemy_learners{
+    margin: 0px 30px;
+}
+
+
+.udemy_course_details_1_0
+{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.udemy_course_details_2
+{
+    background-color: white;
+    width: 260px;
+    padding: 1px;
+    height: 360px;
+}
+
+.udemy_course_details_2:hover
+{
+    background-color: rgba(231, 230, 230, 0.922);
+    cursor: pointer;
+}
+.udemy_course_details_2 h3
+{
+    padding: 0px 10px;
+}
+.udemy_course_details_2 img
+{
+    
+    text-align: center;
+    width: 260px;
+    height: 150px;
+    border:5px solid orange;
+    
+}
+.udemy_course_details_rating_2
+{padding: 1px
+}
+.udemy_course_details_rating_2 p
+{
+    padding: 5px 10px;
+    font-size: 14px;
+    height: 30px;
+
+}
+.udemy_course_details_rating_2 h3
+{
+    padding: 5px 10px;
+
+}
+
+.udemy_course_details_rating_2 h4
+{
+    padding: 8px 10px;
+    background-color: rgb(22, 22, 83);
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 80px;
+    align-items: center;
+    text-align: center;
+    margin: 0px 10px;
+
+}
+.udemy_course_details_rating_2 h4:hover
+{
+    background-color: rgb(146, 145, 153);
+    color:rgb(22, 22, 83) ;
+}
+.learning_goals
+{
+    background-color: rgba(219, 245, 236, 0.868);
+    margin: 60px 0px;
+    padding: 60px 100px;
+}
+.learning_goals_collection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.learning_goals_collection_1
+{
+    margin: 20px 0px;
+     background-color: white;
+    padding: 28px 10px;
+    border: 2px solid blueviolet;
+    width: 500px;
+    border-radius: 6px;
+    display: flex;
+}
+.learning_goals_collection_1:hover
+{
+    background-color: rgba(171, 170, 172, 0.397);
+    cursor: pointer;
+    border-left:7px solid blueviolet ;
+}
+.learning_goals_collection_1_0 h2
+{
+    color: black;
+    padding: 8px 17px;
+}
+.learning_goals_collection_1_0 p
+{
+    color: black;
+    padding: 8px 17px;
+}
+.learning_goals_collection_0_2
+{
+    border: 1px solid black;
+    width: 500px;
+    border-radius: 6px;
+    background-color: white;
+}
+.div_1
+{
+    background-color: rgba(35, 35, 35, 0.211);
+    text-align: center;
+    padding: 20px 0px;
+}
+.div_2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+.div_3
+{
+    text-align: center;
+}
+.div_4
+{
+    display: flex;
+    padding: 10px 0px;
+    border: 1px solid rgb(124, 123, 123);
+    align-items: center;
+    width: 450px;
+    font-size: 10px;
+    margin: 13px 30px;
+}
+.div_5
+{
+    margin: 10px 0px;
+}
+.div_5 h3{
+    font-size: 12px;
+}
+.div_5_1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.div_5_1 h4
+{
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid black;
+}
+.div_5_1 h4:hover
+{
+    background-color: rgb(175, 167, 182);
+    color: blueviolet;
+    cursor: pointer;
+}
+#c:hover
+{
+    background-color: rgb(241, 215, 167);
+}
+#ic:hover
+{
+    background-color: rgb(245, 198, 181);
+}
+#sk:hover
+{
+    background-color: rgb(201, 250, 201);
+}
+
+.udemy_plan
+{
+    padding: 40px;
+}
+.udemy_plan_a
+{
+    padding: 10px;
+}
+.udemy_plan_three
+{
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+    justify-content: space-around;
+}
+.udemy_plan_three_1
+{
+    border: 1px solid black;
+    width: 400px;
+    border-radius: 8px;
+    border-top: 14px solid blueviolet;
+    height: 700px;
+    
+}
+.perso
+{
+    
+    background-color: rgba(193, 198, 198, 0.666);
+    padding: 5px 20px;
+}
+.perso h2
+{
+    padding: 7px ;
+
+}
+
+.perso p
+{
+    padding: 3px 7px;
+
+}
+
+.perso h4
+{
+    padding: 7px;
+
+}
+.udemy_plan_star
+{
+    margin: 20px;
+    padding: 10px 35px;
+    height: 60px;
+}
+.udemy_plan_star p
+{
+    padding-bottom: 10px;
+}
+.aj
+{
+    text-align: center;
+    margin: 30px 0px;
+}
+.aj a
+{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px 90px;
+    text-decoration: none;
+    border-radius: 6px;
+    
+    margin: 10px 10px;
+}
+.aj a:hover
+{
+    background-color: rgb(210, 195, 224);
+    color: blueviolet;
+}
+.udemy_plan_experiance
+{
+    margin: 20px 50px;
+}
+.udemy_plan_experiance p
+{
+    padding: 6px 10px;
+}
+.udemy_others
+{
+    background-color: rgba(181, 186, 184, 0.964);
+    height: fit-content;
+    padding: 20px;
+}
+.udemy_others_four
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.udemy_others_four_1
+{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+}
+.udemy_others_four_1:hover
+{
+    background-color: rgb(230, 229, 229);
+    cursor: pointer;
+}
+.udemy_others_four_person
+{
+    margin: 10px 0px;
+    display: flex;
+}
+.udemy_others_four_person h2
+{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    width: 60px;
+}
+.udemy_ai
+{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.udemy_ai_text
+{
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+    column-gap: 30px;
+}
+.udemy_ai_text_a
+{
+    padding: 30px 0px;
+}
+.udemy_ai_text_a a
+{
+    padding: 10px 30px;
+    text-align: center;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    text-decoration: none;
+}
+.udemy_ai_text_a a:hover
+{
+    background-color: rgb(176, 164, 187);
+}
+.udemy_trent
+{
+    background-color: rgba(245, 245, 220, 0.447);
+    padding: 30px;
+}
+.udemy_trent_now
+{
+    margin: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.udemy_trent_now_1
+{
+    width: 300px;
+    height: fit-content;
+}
+.udemy_trent_now_1 h4
+{
+    padding: 18px 0px 6px 0px;
+    color: blueviolet;
+}
+.udemy_trent_now_1 p
+{
+    padding-bottom: 19px;
+    color: rgb(103, 102, 102);
+}
+.udemy_trent_now_1_a
+{
+    padding: 20px 0px;
+}
+.udemy_trent_now_1_a a
+{
+    text-decoration: none;
+    padding: 10px 40px;
+    text-align: center;
+    border: 1px solid blueviolet;
+}
+.udemy_trent_now_1_a a:hover
+{
+    background-color: rgb(136, 131, 142);
+}
+.udemy_trent_now_3 h4
+{
+    padding: 20px 0px;
+    font-size: 19px;
+    color: blueviolet;
+}
+.udemy_trent_now_3 p
+{
+    padding: 0px;
+    color:rgb(103, 102, 102);
+}
+.udemy__cetrificate
+{
+    background-color: rgb(41, 41, 83);
+    padding: 20px;
+}
+.udemy__cetrificate__header
+{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    color: white;
+}
+.explore_skills
+{
+    padding: 30px;
+    color: white;
+}
+.explore_skills_collection
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+.explore_skills_collection_1 p
+{
+    padding: 6px 0px;
+}
+.udemy__about
+{
+    background-color: rgb(7, 7, 52);
+    padding: 40px;
+    color: white;
+}
+.udemy__about1
+{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.udemy__about_1 p
+{
+    padding: 4px 2px;
+}
+.udemy__last
+{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
