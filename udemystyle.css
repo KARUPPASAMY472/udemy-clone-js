@@ -20,6 +20,10 @@ body{
     top: 0px;
     z-index: 2;
 }
+.udemy-navbar-menu
+{
+    display: none;
+}
 
 .udemy-navbar-explore-para
 {
@@ -308,7 +312,6 @@ body{
 .udemy_course_collection-o
 {
     padding: 1px;
-    
     margin: 0px 30px;
 
 }
@@ -318,6 +321,8 @@ body{
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid rgba(47, 46, 46, 0.242);
+    
+    flex-wrap: wrap;
 }
 .udemy_course_collection-o p a
 {
@@ -345,6 +350,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .udemy_course_collection-2 p a
 {
@@ -408,6 +414,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .udemy_course_details_2
 {
@@ -553,7 +560,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 .div_5_1 h4
 {
@@ -594,6 +601,7 @@ body{
     margin: 20px;
     gap: 30px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .udemy_plan_three_1
 {
@@ -676,6 +684,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .udemy_others_four_1
 {
@@ -840,3 +849,48 @@ body{
     justify-content: space-between;
 }
 
+@media screen and (max-width : 700px) {
+
+    .udemy-navbar-menu
+    {
+        display: block;
+    }
+    .udemy-navbar-search
+    {
+        display: none;
+    }
+    .udemy-navbar a
+    {
+        display: none;
+    }
+    .udemy-front-image img
+    {
+        width: 500px;
+        height: 300px;
+    }
+    .udemy-front-para
+    {
+        width: 300px;
+        position: absolute;
+        top:40px;
+        left: 50px;
+        
+    }
+    .udemy-front-para h2,p,a
+    {
+        font-size: 15px;
+    }
+    .udemy-front-para a
+    {
+        font-size: 10px;
+    }
+
+    .udemy_course_collection-2 p a
+    {
+        margin: 10px 0px;
+    }
+    .udemy_others_four
+    {
+        padding: 20px 0px;
+    }
+}
