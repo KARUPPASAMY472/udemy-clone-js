@@ -904,4 +904,8 @@ body{
     {
         padding: 20px 0px;
     }
+    .udemy-navbar-i
+    {
+        display: block;
+    }
 }
