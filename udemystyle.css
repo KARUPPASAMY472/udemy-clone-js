@@ -16,17 +16,74 @@ body{
     background-color: whitesmoke;
     color: black;
     padding: 26px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
-.udemy-navbar h3
+
+.udemy-navbar-explore-para
+{
+    display: flex;
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    border: 1px solid black;
+    width: 500px;
+    z-index: 3;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    
+}
+.disnon
+{
+    display: none;
+}
+.udemy-navbar-explore-para_1
+{
+    
+    border-right: 1px solid black;
+
+}
+.part_1
+{
+    padding: 10px;
+    
+    
+}
+.part_1 h3
+{
+    padding: 10px 0px;
+}
+.part_1
+{
+    padding: 10px;
+    
+    
+}
+.part_1 h3
+{
+    padding: 10px 0px;
+}
+.udemy-navbar-explore
+{
+    position: relative;
+}
+
+.udemy_h2
 {
     border-bottom: 2px solid whitesmoke;
 }
-.udemy-navbar h3:hover
+.udemy_h2:hover
 {
     border-bottom: 2px solid blueviolet;
     cursor: pointer;
     color: blueviolet;
    
+}
+.udemy-navbar-explore:hover .disnon
+{
+    display: flex;
 }
 .udemy-navbar-search
 {
