@@ -498,6 +498,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .learning_goals_collection_1
 {
@@ -730,6 +731,7 @@ body{
     margin: 20px;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .udemy_ai_text
 {
@@ -861,7 +863,14 @@ body{
 }
 
 @media screen and (max-width : 700px) {
-
+    body
+    {
+        width: 479px;
+    }
+    .udemy-front-image
+    {
+        background-color:white;
+    }
     .udemy-navbar-menu
     {
         display: block;
@@ -874,9 +883,14 @@ body{
     {
         display: none;
     }
+    .udemy-front-para-image img
+    {
+        margin: 0px;
+    }
     .udemy-front-image img
     {
-        width: 500px;
+        margin: 0px;
+        width: 480px;
         height: 300px;
     }
     .udemy-front-para
@@ -907,5 +921,32 @@ body{
     .udemy-navbar-i
     {
         display: block;
+    }
+    .learning_goals_collection_1
+    {
+        margin: 10px 0px;
+        width: 400px;
+        font-size: 19px;
+    }
+    .learning_goals_collection_0_2
+    {
+        width: 450px;
+    }
+    .learning_goals
+    {
+        padding: 0px;
+        background-color: white;
+    }
+    .udemy_others_four_1
+    {
+        margin: 10px 0px;
+    }
+    .udemy_trent
+    {
+        display: none;
+    }
+    .udemy-company-logo
+    {
+        display: none;
     }
 }
