@@ -97,6 +97,14 @@ body{
     background-color: white;
     align-items: center;
 }
+.udemy-navbar-i
+{
+    display: none;
+}
+.udemy-navbar-i
+{
+    cursor: pointer;
+}
 .udemy-navbar input
 {
     margin-left: 6px;
@@ -151,7 +159,10 @@ body{
     background-color:white;
     color:blue
 }
-
+.udemy-navbar-menu:hover
+{
+    cursor: pointer;
+}
 #udemy-navbar-awesome a
 {
     text-decoration: none;
