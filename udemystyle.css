@@ -827,6 +827,7 @@ body{
     align-items: center;
     padding: 40px;
     color: white;
+    flex-wrap: wrap;
 }
 .explore_skills
 {
@@ -868,7 +869,7 @@ body{
     justify-content: space-between;
 }
 
-@media screen and (max-width : 700px) {
+@media screen and (max-width : 500px) {
    .udemy-navbar-explore-para
    {
     position: absolute;
@@ -940,12 +941,12 @@ body{
     .learning_goals_collection_1
     {
         margin: 10px 0px;
-        width: 400px;
-        font-size: 19px;
+        width: 370px;
+        font-size: 18px;
     }
     .learning_goals_collection_0_2
     {
-        width: 400px;
+        width: 370px;
     }
     .div_3 img
     {
@@ -966,7 +967,7 @@ body{
     }
     .div_4
     {
-        width: 350px;
+        width: 300px;
     }
     .udemy_trent_now_3
     {
@@ -974,7 +975,16 @@ body{
     }
     .udemy_trent
     {
-        width: 400px;
+        width: 380px;
+    }
+    .udemy_trent_now_1_a a
+    {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    .udemy__cetrificate
+    {
+        width: 420px;
     }
     .udemy_plan_star
     {
@@ -983,5 +993,9 @@ body{
     .udemy_plan_three_1
     {
         height: 990px;
+    }
+    .udemy__cetrificate__header  p
+    {
+        padding: 10px 0px;
     }
 }
