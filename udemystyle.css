@@ -761,6 +761,12 @@ body{
 {
     background-color: rgb(176, 164, 187);
 }
+#udemy_ai_img_1
+{
+    width:400px;
+    height:500px;
+
+}
 .udemy_trent
 {
     background-color: rgba(245, 245, 220, 0.447);
@@ -874,13 +880,22 @@ body{
    {
     position: absolute;
     top: 65px;
-    right: 800px;
-    width: 330px;
+    right: 900px;
+    width: 300px;
+   }
+   .udemy_ai
+   {
+    margin: 0px;
+   }
+   #udemy_ai_img_1
+   {
+    width: 300px;
    }
     .udemy-front-image
     {
         background-color:white;
-    }
+        justify-items: center; 
+     }
     .udemy-navbar-menu
     {
         display: block;
@@ -899,13 +914,21 @@ body{
     }
     .udemy-front-image img
     {
-        margin:0px 40px;
-        width: 340px;
+        margin:0px;
+        width: 350px;
         height: 280px;
+    }
+    .udemy_course_details_1
+    {
+        width: 360px;
+    }
+    .udemy_course_details_1 img
+    {
+        width:340px;
     }
     .udemy-front-para
     {
-        width: 280px;
+        width: 270px;
         position: absolute;
         top:40px;
         left: 50px;
@@ -913,7 +936,7 @@ body{
     }
     .udemy-front-para h2,p,a
     {
-        font-size: 15px;
+        font-size: 14px;
     }
     .udemy-front-para a
     {
@@ -941,16 +964,25 @@ body{
     .learning_goals_collection_1
     {
         margin: 10px 0px;
-        width: 370px;
+        width: 360px;
         font-size: 18px;
     }
     .learning_goals_collection_0_2
     {
-        width: 370px;
+        width: 360px;
+    }
+    .div_5_1
+    {
+        justify-content: center;
+        gap: 20px;
     }
     .div_3 img
     {
         width: 300px;
+    }
+    .udemy__about
+    {
+        padding: 40px 0px;
     }
     .learning_goals
     {
@@ -973,10 +1005,42 @@ body{
     {
         padding: 10px;
     }
+    .udemy-navbar{
+        padding: 26px 10px;
+    }
+    .udemy_course_details
+    {
+        margin: 20px 0px;
+    }
+    .udemy_course
+    {
+        padding: 10px 0px;
+        margin: 10px 0px;
+    }
+    .udemy_course_collection-o
+    {
+        padding: 1px 0px;
+        margin: 0px;
+    }
+    .udemy_course_collection-2
+    {
+        padding: 20px 0px;
+    }
+    .udemy-company
+    {
+        margin: 20px 0px;
+    }
+    .udemy_plan{
+        padding: 40px 0px;
+    }
+    .udemy_others{
+        padding: 20px 0px;
+    }
     .udemy_trent
     {
-        width: 380px;
+        width: 360px;
         background-color: white;
+        padding: 30px 0px;
     }
     .udemy_trent_now_1_a a
     {
