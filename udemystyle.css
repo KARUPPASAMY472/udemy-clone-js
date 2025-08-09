@@ -340,6 +340,7 @@ body{
     text-decoration: none;
     color: rgb(4, 4, 56);
     padding: 10px;
+    border-bottom: 2px solid transparent;
 
     
 }
@@ -880,8 +881,8 @@ body{
    {
     position: absolute;
     top: 65px;
-    right: 900px;
-    width: 300px;
+    left: -100px;
+    width: 320px;
    }
    .udemy_ai
    {
