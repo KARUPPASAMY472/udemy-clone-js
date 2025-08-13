@@ -19,6 +19,8 @@ body{
     position: sticky;
     top: 0px;
     z-index: 2;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 .udemy-navbar-menu
 {
@@ -182,6 +184,7 @@ body{
 {
     position: relative;
     background-color: antiquewhite;
+    padding:0px 50px
 }
 .udemy-front-para-image
 {
@@ -189,7 +192,9 @@ body{
 }
 .udemy-front-image img{
     
-    margin: 0px 50px;
+  text-align: center;
+  justify-items: center;
+    max-width: 100%;
 }
 .udemy-front-para
 {
