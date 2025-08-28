@@ -899,6 +899,7 @@ body{
    }
     .udemy-front-image
     {
+        padding: 0px;
         background-color:white;
         justify-items: center; 
      }
@@ -921,7 +922,6 @@ body{
     .udemy-front-image img
     {
         margin:0px;
-        width: 350px;
         height: 280px;
     }
     .udemy_course_details_1
